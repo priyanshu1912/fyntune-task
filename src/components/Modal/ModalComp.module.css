@@ -1,0 +1,72 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(125, 125, 125, 0.2);
+    backdrop-filter: blur(1px);
+}
+
+.form {
+    position: absolute;
+    width: fit-content;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 3vh 3vw;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 1000000;
+}
+
+.newShop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3vh;
+}
+
+.closeButton {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.fields {
+    margin: 3vh 0;
+    text-align: left;
+}
+.input {
+    width: 300px;
+    margin: 1vh 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vh 1vw;
+    border: 1px solid lightgrey;
+}
+.addButton {
+    margin-bottom: 1vh;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 5px;
+}
+
+
+
+.select {
+    width: 300px;
+    margin: 1vh 0;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 2vh;
+}

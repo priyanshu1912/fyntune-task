@@ -1,0 +1,126 @@
+.shop {
+    padding: 5vh 5vw;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.topContainer {
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filterContainer {
+    margin: 5vh 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+
+.filterItem {
+    width: 120px;
+    margin-right: 2vw;
+}
+
+.title {
+    font-size: 5vh;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.addButton {
+    margin-left: 2vw;
+    font-size: 8vh;
+    cursor: pointer;
+    color: DodgerBlue;
+}
+
+
+
+.shopList {
+    width: fit-content;
+    margin: auto;
+}
+.shopItem {
+    width: 30vw;
+    padding: 3vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgb(241, 241, 241);
+    position: relative;
+}
+@media screen and (max-width: 1000px) {
+    .shopItem {
+        width: 80vw;
+    }
+    
+}
+
+.shopInfo {
+    width: 70%;
+}
+.shopName {
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.menuIcon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menuVisible {
+    position: absolute;
+    right: -160px;
+    box-shadow: 0 0 20px 0 rgb(241, 241, 241);
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+
+.menuHidden {
+
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    margin: 0.5vh 0;
+    cursor: pointer;
+    font-size: 2.5vh;
+}
+.menuItem:hover {
+    color: grey;
+}
+
+.editIcon {
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.deleteIcon {
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.shopDetail {
+    margin-right: 8px;
+    text-align: left;
+    font-size: 2.2vh;
+    color: grey;
+}
+.noShops {
+    color: rgb(179, 179, 179);
+    font-size: 2.5vh;
+}
